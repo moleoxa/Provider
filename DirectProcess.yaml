@@ -7,9 +7,9 @@ payload:
   - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,TIM.exe
   - PROCESS-NAME,cloudmusic.exe
-  # - PROCESS-NAME,哔哩哔哩.exe
+  - PROCESS-NAME,哔哩哔哩.exe
   - PROCESS-NAME,com.bilibili.app.in
-  # - PROCESS-NAME,com.xx.blbl
+  - PROCESS-NAME,com.xx.blbl
   - PROCESS-NAME,com.tencent.mobileqq
   - PROCESS-NAME,com.tencent.mm
   - PROCESS-NAME,com.tencent.wemeet.app
@@ -32,5 +32,7 @@ payload:
   - PROCESS-NAME,com.android.updater
   - PROCESS-NAME,com.xiaomi.smarthome
   - PROCESS-NAME,com.xiaomi.market
+  - DOMAIN-SUFFIX,daydream.dmhy.best
+  - DOMAIN-SUFFIX,tracker.m-team.io
   - DOMAIN-KEYWORD,cloudflare
   - DOMAIN-KEYWORD,speedtest
