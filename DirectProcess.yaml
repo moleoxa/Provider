@@ -32,7 +32,7 @@ payload:
   - PROCESS-NAME,com.android.updater
   - PROCESS-NAME,com.xiaomi.smarthome
   - PROCESS-NAME,com.xiaomi.market
-  - DOMAIN-SUFFIX,daydream.dmhy.best
-  - DOMAIN-SUFFIX,tracker.m-team.io
+  - DOMAIN-SUFFIX,dmhy.best
+  - DOMAIN-SUFFIX,m-team.io
   - DOMAIN-KEYWORD,cloudflare
   - DOMAIN-KEYWORD,speedtest
