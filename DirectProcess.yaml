@@ -8,8 +8,8 @@ payload:
   - PROCESS-NAME,TIM.exe
   - PROCESS-NAME,cloudmusic.exe
   - PROCESS-NAME,哔哩哔哩.exe
-  - PROCESS-NAME,com.bilibili.app.in
-  - PROCESS-NAME,com.xx.blbl
+  # - PROCESS-NAME,com.bilibili.app.in
+  # - PROCESS-NAME,com.xx.blbl
   - PROCESS-NAME,com.tencent.mobileqq
   - PROCESS-NAME,com.tencent.mm
   - PROCESS-NAME,com.tencent.wemeet.app
