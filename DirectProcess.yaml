@@ -1,5 +1,5 @@
 payload:
-  # - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,qbittorrent.exe
   - DOMAIN-SUFFIX,dmhy.best
   - DOMAIN-SUFFIX,m-team.io
   - DOMAIN-KEYWORD,cloudflare
