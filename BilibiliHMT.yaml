@@ -1,7 +1,7 @@
 payload:
   # - PROCESS-NAME,哔哩哔哩.exe
   # - PROCESS-NAME,com.bilibili.app.in
-  # - PROCESS-NAME,com.xx.blbl
+  - PROCESS-NAME,com.xx.blbl
   - DOMAIN-SUFFIX,api.bilibili.com
   - DOMAIN-SUFFIX,api.vc.bilibili.com
   - DOMAIN-SUFFIX,biliapi.com

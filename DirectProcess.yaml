@@ -14,26 +14,26 @@ payload:
   - PROCESS-NAME,哔哩哔哩.exe
   - PROCESS-NAME,com.bilibili.app.in
   - PROCESS-NAME,com.xx.blbl
-  # - PROCESS-NAME,com.tencent.mobileqq
-  # - PROCESS-NAME,com.tencent.mm
-  # - PROCESS-NAME,com.tencent.wemeet.app
-  # - PROCESS-NAME,com.eg.android.AlipayGphone
-  # - PROCESS-NAME,com.taobao.idlefish
-  # - PROCESS-NAME,com.taobao.taobao
-  # - PROCESS-NAME,com.jingdong.app.mall
-  # - PROCESS-NAME,com.xunmeng.pinduoduo
-  # - PROCESS-NAME,com.sankuai.meituan
-  # - PROCESS-NAME,com.waimaiii.waimaiii
-  # - PROCESS-NAME,com.netease.cloudmusic
-  # - PROCESS-NAME,com.qidian.QDReader
-  # - PROCESS-NAME,com.baidu.BaiduMap
-  # - PROCESS-NAME,com.baidu.netdisk
-  # - PROCESS-NAME,com.baidu.netdisk.samsung
-  # - PROCESS-NAME,com.autonavi.minimap
-  # - PROCESS-NAME,cn.com.langeasy.LangEasyLexis
-  # - PROCESS-NAME,com.iflytek.inputmethod.miui
-  # - PROCESS-NAME,com.miui.weather2
-  # - PROCESS-NAME,com.android.updater
-  # - PROCESS-NAME,com.xiaomi.smarthome
-  # - PROCESS-NAME,com.xiaomi.market
+  - PROCESS-NAME,com.tencent.mobileqq
+  - PROCESS-NAME,com.tencent.mm
+  - PROCESS-NAME,com.tencent.wemeet.app
+  - PROCESS-NAME,com.eg.android.AlipayGphone
+  - PROCESS-NAME,com.taobao.idlefish
+  - PROCESS-NAME,com.taobao.taobao
+  - PROCESS-NAME,com.jingdong.app.mall
+  - PROCESS-NAME,com.xunmeng.pinduoduo
+  - PROCESS-NAME,com.sankuai.meituan
+  - PROCESS-NAME,com.waimaiii.waimaiii
+  - PROCESS-NAME,com.netease.cloudmusic
+  - PROCESS-NAME,com.qidian.QDReader
+  - PROCESS-NAME,com.baidu.BaiduMap
+  - PROCESS-NAME,com.baidu.netdisk
+  - PROCESS-NAME,com.baidu.netdisk.samsung
+  - PROCESS-NAME,com.autonavi.minimap
+  - PROCESS-NAME,cn.com.langeasy.LangEasyLexis
+  - PROCESS-NAME,com.iflytek.inputmethod.miui
+  - PROCESS-NAME,com.miui.weather2
+  - PROCESS-NAME,com.android.updater
+  - PROCESS-NAME,com.xiaomi.smarthome
+  - PROCESS-NAME,com.xiaomi.market
   
