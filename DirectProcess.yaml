@@ -12,7 +12,6 @@ payload:
   - PROCESS-NAME,QQ.exe
   - PROCESS-NAME,WeChat.exe
   - PROCESS-NAME,cloudmusic.exe
-  - PROCESS-NAME,哔哩哔哩.exe
   - PROCESS-NAME,com.bilibili.app.in
   - PROCESS-NAME,com.xx.blbl
   - PROCESS-NAME,com.xjs.ehviewer
@@ -24,14 +23,7 @@ payload:
   - PROCESS-NAME,com.baidu.BaiduMap
   - PROCESS-NAME,com.baidu.netdisk
   - PROCESS-NAME,com.autonavi.minimap
-  - PROCESS-NAME,cn.com.langeasy.LangEasyLexis
   - PROCESS-NAME,com.xiaomi.market
   - PROCESS-NAME,com.xiaomi.smarthome
-  - PROCESS-NAME,com.milink.service
-  - PROCESS-NAME,com.xiaomi.smarthome
-  - PROCESS-NAME,com.miui.voiceassist
-  - PROCESS-NAME,com.miui.mediaeditor
   - PROCESS-NAME,com.mi.health
-  - PROCESS-NAME,com.miui.weather2
-  - PROCESS-NAME,com.sohu.inputmethod.sogou.xiaomi
   
