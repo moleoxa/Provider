@@ -1,6 +1,7 @@
 payload:
   - PROCESS-NAME,com.bilibili.app.in
   - PROCESS-NAME,com.xx.blbl
+  - PROCESS-NAME,com.guozhigq.pilipala
   - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,biliapi.com
   - DOMAIN-SUFFIX,biliapi.net
