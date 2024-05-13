@@ -1,14 +1,6 @@
 payload:
   - PROCESS-NAME,qbittorrent.exe
-  - PROCESS-NAME,uTorrent.exe
-  - DOMAIN-SUFFIX,dmhy.best
-  - DOMAIN-SUFFIX,m-team.io
-  - DOMAIN-SUFFIX,tracker.pterclub.com
-  - DOMAIN-SUFFIX,tracker.totheglory.im
-  - DOMAIN-SUFFIX,skyey.win
-  - DOMAIN-SUFFIX,t.et8.org
-  - DOMAIN-KEYWORD,cloudflare
-  - DOMAIN-KEYWORD,speedtest
+  - PROCESS-NAME,uTorrent.exe  
   - PROCESS-NAME,com.tencent.mobileqq
   - PROCESS-NAME,com.tencent.mm
   - PROCESS-NAME,com.eg.android.AlipayGphone
@@ -38,5 +30,13 @@ payload:
   - PROCESS-NAME,baidunetdiskhost.exe
   - PROCESS-NAME,DownloadSDKServer.exe
   - PROCESS-NAME,Thunder.exe
+  - DOMAIN-SUFFIX,dmhy.best
+  - DOMAIN-SUFFIX,m-team.io
+  - DOMAIN-SUFFIX,tracker.pterclub.com
+  - DOMAIN-SUFFIX,tracker.totheglory.im
+  - DOMAIN-SUFFIX,skyey.win
+  - DOMAIN-SUFFIX,t.et8.org
+  - DOMAIN-KEYWORD,cloudflare
+  - DOMAIN-KEYWORD,speedtest
   
   
