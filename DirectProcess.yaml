@@ -1,29 +1,42 @@
 payload:
   - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,uTorrent.exe
   - DOMAIN-SUFFIX,dmhy.best
   - DOMAIN-SUFFIX,m-team.io
+  - DOMAIN-SUFFIX,tracker.pterclub.com
+  - DOMAIN-SUFFIX,tracker.totheglory.im
+  - DOMAIN-SUFFIX,skyey.win
+  - DOMAIN-SUFFIX,t.et8.org
   - DOMAIN-KEYWORD,cloudflare
   - DOMAIN-KEYWORD,speedtest
-  - PROCESS-NAME,uTorrent.exe
+  - PROCESS-NAME,com.tencent.mobileqq
+  - PROCESS-NAME,com.tencent.mm
+  - PROCESS-NAME,com.eg.android.AlipayGphone
+  - PROCESS-NAME,com.autonavi.minimap
+  - PROCESS-NAME,com.baidu.BaiduMap
+  - PROCESS-NAME,com.baidu.netdisk  
+  - PROCESS-NAME,com.bilibili.app.in
+  - PROCESS-NAME,com.xx.blbl
+  - PROCESS-NAME,com.xjs.ehviewer
+  - PROCESS-NAME,com.netease.cloudmusic
+  - PROCESS-NAME,cn.missevan
+  - PROCESS-NAME,com.ximalaya.ting.android
+  - PROCESS-NAME,com.heytap.market
+  - PROCESS-NAME,com.xiaomi.market
+  - PROCESS-NAME,com.xiaomi.smarthome
+  - PROCESS-NAME,com.mi.health
+  - PROCESS-NAME,com.qidian.QDReader
+  - PROCESS-NAME,com.dragon.read
+  - PROCESS-NAME,com.jingdong.app.mall
+  - PROCESS-NAME,com.xunmeng.pinduoduo
+  - PROCESS-NAME,com.taobao.taobao
+  - PROCESS-NAME,com.taobao.idlefish  
+  - PROCESS-NAME,QQ.exe
+  - PROCESS-NAME,WeChat.exe
+  - PROCESS-NAME,cloudmusic.exe
   - PROCESS-NAME,baidunetdisk.exe
   - PROCESS-NAME,baidunetdiskhost.exe
   - PROCESS-NAME,DownloadSDKServer.exe
   - PROCESS-NAME,Thunder.exe
-  - PROCESS-NAME,QQ.exe
-  - PROCESS-NAME,WeChat.exe
-  - PROCESS-NAME,cloudmusic.exe
-  - PROCESS-NAME,com.bilibili.app.in
-  - PROCESS-NAME,com.xx.blbl
-  - PROCESS-NAME,com.xjs.ehviewer
-  - PROCESS-NAME,com.tencent.mobileqq
-  - PROCESS-NAME,com.tencent.mm
-  - PROCESS-NAME,com.eg.android.AlipayGphone
-  - PROCESS-NAME,com.netease.cloudmusic
-  - PROCESS-NAME,com.qidian.QDReader
-  - PROCESS-NAME,com.baidu.BaiduMap
-  - PROCESS-NAME,com.baidu.netdisk
-  - PROCESS-NAME,com.autonavi.minimap
-  - PROCESS-NAME,com.xiaomi.market
-  - PROCESS-NAME,com.xiaomi.smarthome
-  - PROCESS-NAME,com.mi.health
+  
   
