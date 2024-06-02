@@ -1,25 +1,460 @@
+rules:
+  - RULE-SET,LocalAreaNetwork,DIRECT
+  - RULE-SET,BilibiliHMT,BILIBILI
+  - PROCESS-NAME,qbittorrent.exe,RD
+  - RULE-SET,DirectProcess,DIRECT
+  - PROCESS-NAME,yt-dlp.exe,YOUTUBE
+  - PROCESS-NAME,Telegram.exe,TELEGRAM  
+  - RULE-SET,YouTube,YOUTUBE
+  - RULE-SET,Google,SEARCH
+  - RULE-SET,EHGallery,SEARCH
+  - RULE-SET,OpenAi,SEARCH
+  - DOMAIN-KEYWORD,chat,SEARCH
+  - RULE-SET,Telegram,TELEGRAM
+  - RULE-SET,Bahamut,TW
+  - GEOIP,CN,DIRECT
+  - MATCH,SELECT
+
+proxy-providers:
+  ALD:
+    type: http
+    url: "https://music.easygourl.xyz/link/"
+    path: ./providers/proxy/ALD.yaml
+    interval: 7200
+    header:
+      User-Agent:
+        - "clash-verge/v1.6.0"
+        - "Clash/v1.18.0"
+        - "mihomo/1.18.3"
+    health-check:
+      enable: true
+      interval: 300
+      timeout: 1000
+      url: https://cp.cloudflare.com
+    override:
+      skip-cert-verify: true
+      udp: true
+      ip-version: ipv6-prefer
+      additional-prefix: "ALD."
+    # exclude-filter:
+  CIY:
+    type: http
+    url: "https://service-a4rgovvz-202402.lycoris.asia/api/v1/client/subscribe?token="
+    path: ./providers/proxy/CIY.yaml
+    interval: 7200
+    header:
+      User-Agent:
+        - "clash-verge/v1.6.0"
+        - "Clash/v1.18.0"
+        - "mihomo/1.18.3"
+    health-check:
+      enable: true
+      interval: 300
+      timeout: 1000
+      url: https://cp.cloudflare.com
+    override:
+      skip-cert-verify: true
+      udp: true
+      ip-version: ipv6-prefer
+      additional-prefix: "CIY."
+    # exclude-filter:
+  DAR:
+    type: http
+    url: "https://cxk.lol/api/v1/client/subscribe?token="
+    path: ./providers/proxy/DAR.yaml
+    interval: 7200
+    header:
+      User-Agent:
+        - "clash-verge/v1.6.0"
+        - "Clash/v1.18.0"
+        - "mihomo/1.18.3"
+    health-check:
+      enable: true
+      interval: 300
+      timeout: 1000
+      url: https://cp.cloudflare.com
+    override:
+      skip-cert-verify: true
+      udp: true
+      ip-version: ipv6-prefer
+      additional-prefix: "DAR."
+    exclude-filter: "5x"
+  DOG:
+    type: http
+    url: "https://2d1f4b98-fbe7-4812-9a60-944840f6b2bf.ppgnginx.com/api/v1/client/subscribe?token="
+    path: ./providers/proxy/DOG.yaml
+    interval: 7200
+    header:
+      User-Agent:
+        - "clash-verge/v1.6.0"
+        - "Clash/v1.18.0"
+        - "mihomo/1.18.3"
+    health-check:
+      enable: true
+      interval: 300
+      timeout: 1000
+      url: https://cp.cloudflare.com
+    override:
+      skip-cert-verify: true
+      udp: true
+      ip-version: ipv6-prefer
+      additional-prefix: "DOG."
+    # exclude-filter:
+  HAN:
+    type: http
+    url: "https://hanscloud.shop/api/v1/client/subscribe?token="
+    path: ./providers/proxy/HAN.yaml
+    interval: 7200
+    header:
+      User-Agent:
+        - "clash-verge/v1.6.0"
+        - "Clash/v1.18.0"
+        - "mihomo/1.18.3"
+    health-check:
+      enable: true
+      interval: 300
+      timeout: 1000
+      url: https://cp.cloudflare.com
+    override:
+      skip-cert-verify: true
+      udp: true
+      ip-version: ipv6-prefer
+      additional-prefix: "HAN."
+    # exclude-filter:
+  INF:
+    type: http
+    url: "https://on1vejas4m6z.w7yxefcx0i11.click/api/v1/client/subscribe?token="
+    path: ./providers/proxy/INF.yaml
+    interval: 7200
+    header:
+      User-Agent:
+        - "clash-verge/v1.6.0"
+        - "Clash/v1.18.0"
+        - "mihomo/1.18.3"
+    health-check:
+      enable: true
+      interval: 300
+      timeout: 1000
+      url: https://cp.cloudflare.com
+    override:
+      skip-cert-verify: true
+      udp: true
+      ip-version: ipv6-prefer
+      additional-prefix: "INF."
+    # exclude-filter:
+  MOJ:
+    type: http
+    url: "https://mojie0201.xn--8stx8olrwkucjq3b.com/api/v1/client/subscribe?token="
+    path: ./providers/proxy/MOJ.yaml
+    interval: 7200
+    header:
+      User-Agent:
+        - "clash-verge/v1.6.0"
+        - "Clash/v1.18.0"
+        - "mihomo/1.18.3"
+    health-check:
+      enable: true
+      interval: 300
+      timeout: 1000
+      url: https://cp.cloudflare.com
+    override:
+      skip-cert-verify: true
+      udp: true
+      ip-version: ipv6-prefer
+      additional-prefix: "MOJ."
+    # exclude-filter:
+  SWI:
+    type: http
+    url: "https://swiftnet.tech/api/v1/client/subscribe?token="
+    path: ./providers/proxy/SWI.yaml
+    interval: 7200
+    header:
+      User-Agent:
+        - "clash-verge/v1.6.0"
+        - "Clash/v1.18.0"
+        - "mihomo/1.18.3"
+    health-check:
+      enable: true
+      interval: 300
+      timeout: 1000
+      url: https://cp.cloudflare.com
+    override:
+      skip-cert-verify: true
+      udp: true
+      ip-version: ipv6-prefer
+      additional-prefix: "SWI."
+    # exclude-filter:
+  XFS:
+    type: http
+    url: "https://dy.xfltd.cc/api/v1/client/subscribe?token="
+    path: ./providers/proxy/XFS.yaml
+    interval: 7200
+    header:
+      User-Agent:
+        - "clash-verge/v1.6.0"
+        - "Clash/v1.18.0"
+        - "mihomo/1.18.3"
+    health-check:
+      enable: true
+      interval: 300
+      timeout: 1000
+      url: https://cp.cloudflare.com
+    override:
+      skip-cert-verify: true
+      udp: true
+      ip-version: ipv6-prefer
+      additional-prefix: "XFS."
+    # exclude-filter:
+  XSU:
+    type: http
+    url: "https://xsus.moe/api/v1/client/subscribe?token="
+    path: ./providers/proxy/XSU.yaml
+    interval: 7200
+    header:
+      User-Agent:
+        - "clash-verge/v1.6.0"
+        - "Clash/v1.18.0"
+        - "mihomo/1.18.3"
+    health-check:
+      enable: true
+      interval: 300
+      timeout: 1000
+      url: https://cp.cloudflare.com
+    override:
+      skip-cert-verify: true
+      udp: true
+      ip-version: ipv6-prefer
+      additional-prefix: "XSU."
+    # exclude-filter: 
+  YAN:
+    type: http
+    url: "https://api.yuyan.vin/api/v1/client/subscribe?token="
+    path: ./providers/proxy/YAN.yaml
+    interval: 7200
+    header:
+      User-Agent:
+        - "clash-verge/v1.6.0"
+        - "Clash/v1.18.0"
+        - "mihomo/1.18.3"
+    health-check:
+      enable: true
+      interval: 300
+      timeout: 1000
+      url: https://cp.cloudflare.com
+    override:
+      skip-cert-verify: true
+      udp: true
+      ip-version: ipv6-prefer
+      additional-prefix: "YAN."
+    # exclude-filter:
+
+proxy-groups:
+  - name: SELECT
+    type: select
+    proxies:
+      - RD
+      - HK
+      - US
+      - SG    
+      - TW      
+      - DIRECT      
+  - name: BILIBILI
+    type: select
+    proxies:
+      - HK
+      - DIRECT
+      - SELECT
+  - name: YOUTUBE
+    type: select
+    proxies:
+      - TW
+      - RD
+      - SELECT
+  - name: SEARCH
+    type: select
+    proxies:
+      - US
+      - SG
+      - SELECT
+  - name: TELEGRAM
+    type: select
+    proxies:
+      - SG
+      - RD
+      - SELECT
+  - name: RD
+    type: load-balance
+    strategy: round-robin
+    url: https://cp.cloudflare.com
+    interval: 60
+    tolerance: 10
+    timeout: 1000
+    proxies:
+      - HK
+      - SG
+      - TW
+      - US     
+  - name: HK
+    type: load-balance
+    strategy: round-robin
+    url: https://cp.cloudflare.com
+    interval: 60
+    tolerance: 10
+    timeout: 400
+    filter: "HK|Hong|港"
+    use:
+      - ALD
+      - CIY
+      - DAR
+      - DOG
+      - HAN
+      - XFS 
+  - name: SG
+    type: load-balance
+    strategy: round-robin
+    url: https://cp.cloudflare.com
+    interval: 60
+    tolerance: 10
+    timeout: 500
+    filter: "SG|Sing|坡|狮"
+    use:
+      - ALD
+      - CIY
+      - DAR
+      - DOG
+      - HAN
+      - INF
+      - MOJ
+      - SWI
+      - XFS
+  - name: TW
+    type: load-balance
+    strategy: round-robin
+    url: https://cp.cloudflare.com
+    interval: 60
+    tolerance: 10
+    timeout: 700
+    filter: "TW|Tai|台"
+    use:
+      - ALD
+      - CIY
+      - DAR
+      - DOG
+      - HAN
+      - INF
+      - MOJ
+      - SWI
+      - XFS
+      - XSU
+      - YAN
+  - name: US
+    type: load-balance
+    strategy: round-robin
+    url: https://cp.cloudflare.com
+    interval: 60
+    tolerance: 10
+    timeout: 1000
+    filter: "US|State|美"
+    use:
+      - ALD
+      - CIY
+      - DAR
+      - DOG
+      - HAN
+      - INF
+      - MOJ
+      - SWI
+      - XFS
+      - YAN   
+      
+rule-providers:
+  DirectProcess:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/moleoxa/Provider/main/DirectProcess.yaml"
+    path: ./providers/rule/DirectProcess.yaml
+    interval: 86400
+  BilibiliHMT:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/moleoxa/Provider/main/BilibiliHMT.yaml"
+    path: ./providers/rule/BilibiliHMT.yaml
+    interval: 86400
+  Bahamut:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml"
+    path: ./providers/rule/Bahamut.yaml
+    interval: 86400  
+  EHGallery:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/EHGallery.yaml"
+    path: ./providers/rule/EHGallery.yaml
+    interval: 86400   
+  Google:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Google.yaml"
+    path: ./providers/rule/Google.yaml
+    interval: 86400
+  OpenAi:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OpenAi.yaml"
+    path: ./providers/rule/OpenAi.yaml
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml"
+    path: ./providers/rule/Telegram.yaml
+    interval: 86400
+  YouTube:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml"
+    path: ./providers/rule/YouTube.yaml
+    interval: 86400
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"
+    path: ./providers/rule/LocalAreaNetwork.yaml
+    interval: 86400  
+
 dns:
   enable: true
-  listen: 0.0.0.0:53
+  ipv6: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - "*.msftncsi.com"
-    - "*.msftconnecttest.com"
-    - WORKGROUP
+    - "+.lan"
+    - "+.local"
   nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-    - 180.76.76.76
-    - 114.114.114.114
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   fallback:
-    - 8.8.8.8
-    - 1.1.1.1
-    - 208.67.222.222
-    - 94.140.14.14
+    - tls://8.8.4.4
+    - tls://1.1.1.1
   fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-      - 240.0.0.0/4
-      - 127.0.0.1/32
+     geoip: true
+     geoip-code: CN
+     ipcidr:
+       - 240.0.0.0/4
+
+# tun:
+#   enable: true
+#   stack: mixed
+#   auto-route: true
+#   auto-detect-interface: true
+#   dns-hijack:
+#     - any:53
+#   strict-route: false
+#   mtu: 1500
+
+mode: rule
+ipv6: true
+global-ua: clash-verge/v1.6.0
+find-process-mode: strict
+tcp-concurrent: true
