@@ -32,6 +32,7 @@ payload:
   - PROCESS-NAME,Thunder.exe
   - DOMAIN-SUFFIX,dmhy.best
   - DOMAIN-SUFFIX,m-team.io
+  - DOMAIN-SUFFIX,thegeeks.click
   - DOMAIN-SUFFIX,tracker.pterclub.com
   - DOMAIN-SUFFIX,tracker.totheglory.im
   - DOMAIN-SUFFIX,skyey.win
