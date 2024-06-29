@@ -5,7 +5,15 @@ payload:
   - DOMAIN-SUFFIX,copilot.microsoft.com
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN,gemini.google.com
+  - DOMAIN-SUFFIX,e-hentai.org
+  - DOMAIN-SUFFIX,ehwiki.org
+  - DOMAIN-SUFFIX,ehgt.org
+  - DOMAIN-SUFFIX,exhentai.org
+  - DOMAIN-SUFFIX,hentaiverse.org
+  - DOMAIN-SUFFIX,hath.network
+  - DOMAIN-KEYWORD,gmail
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,gstatic
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,chat
   - DOMAIN-SUFFIX,auth0.com
@@ -23,9 +31,5 @@ payload:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,stripe.com  
-  - DOMAIN-SUFFIX,e-hentai.org
-  - DOMAIN-SUFFIX,ehwiki.org
-  - DOMAIN-SUFFIX,ehgt.org
-  - DOMAIN-SUFFIX,exhentai.org
-  - DOMAIN-SUFFIX,hentaiverse.org
-  - DOMAIN-SUFFIX,hath.network
+  - IP-CIDR,74.125.0.0/16,no-resolve
+  - IP-CIDR,173.194.0.0/16,no-resolve
